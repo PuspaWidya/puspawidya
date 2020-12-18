@@ -27,7 +27,7 @@ function getWinner(enemy,player){
         }
     }else if(player === 'rock'){
         if(enemy === 'paper'){
-            return 'lose you losser!'
+            return 'Lose you losser!'
         }else{
             return 'You are the Winner!'
         } 
