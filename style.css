@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    color: white;
+    /* position: fixed; */
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+
+body {
+    /* background-color: gray; */
+    background-image: url(img/martin-knize-1iHpSdiZyFA-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+header h2 {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.main {
+    text-align: center;
+}
+
+.enemy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.player ul {
+    padding-top: 80px;
+    padding-left: 25px
+}
+
+.player li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.player img {
+    display: inline-block;
+    text-align: center;
+}
+
+.info {
+    padding-top: 120px;
+    font-size: 90px;
+}
